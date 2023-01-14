@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    font-family: 'roboto',sans-serif;
+}
+/* ------------------------------------------------Form Controls ------------------------------------*/
+.wrap{
+    width: 428px;
+    height: 950px;
+    background:#FFFF;
+    
+}
+.body{
+    position: relative;
+}
+.wrap{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    margin-left: 116px;
+    margin-right: 114px;
+    margin-top: 90px;
+}
+.random-txt{
+    margin-top: 30px;
+    margin-left: 56px;
+    margin-right: 54px;
+    text-align: center;
+    font-size: 15px;
+}
+.Login a{
+    margin-top: 35px;
+    margin-left: 92px;
+    text-decoration: none;
+    
+}
+.login-1{
+    font-size: 16px ;
+    color: #1D2226;
+    font-weight: bold;
+}
+.Signup{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 100px;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.signup{
+    margin-right: 96px;
+    font-size: 16px;
+    color: #1D2226;
+    opacity: 100%;
+}
+.Login a::after{
+    content: '  ';
+    width: 0;
+    height: 4px;
+    background-color:#E70B89;
+    margin: auto;
+    display: block;
+}
+.Login a:hover::after{
+    width: 100px;
+    transition: width 0.5s linear;
+}
+/*---------------------------------------------- Email and Password-------------------------------- */
+.email input,.password input{
+    border-radius: 26px;
+    width: 300px;
+    height: 50px;
+    margin-left: 63px;
+   margin-right: 63px;
+   margin-top: 35px;
+   font-size: 16px;
+   color: #1A1A1A;
+   opacity: 0.56;
+   text-align: center;
+ 
+}
+/* -----------------------------------------------------------button ---------------------------------*/
+.btn-1{
+     border-radius: 26px;
+    width: 300px;
+    height: 50px;
+    margin-left: 65px;
+   margin-right: 63px;
+   margin-top: 40px;
+   background: #E70B89;
+   color: white;
+   border: none;
+}
+.forgot{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #E70B89;
+    font-size: 15px;
+}
+.line-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #9D9D9D;
+    font-size: 15px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.google,.facebook,.twitter{
+    border: 2px solid #E6E6E6;
+    border-radius: 23px;
+}
+.google{
+    margin-left: 2rem;
+}
+.twitter{
+    margin-right: 2rem;
+}
+.line-2{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.line-3{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.line-2 a{
+    color: #E70B89;
+    text-decoration: none;
+}
+.line-3 a{
+    color: #E70B89;
+    text-decoration: none;
+}
